@@ -1,3 +1,4 @@
+#Windows CMD only support with Maximize Windows
 from time import sleep as slp
 from os import system as s
 def box(tapp,neww):
