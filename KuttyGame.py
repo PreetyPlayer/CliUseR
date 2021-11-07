@@ -1,4 +1,3 @@
-#Windows CMD Only Support 
 #My First Kutty Game
 from random import randint as rt
 from time import sleep as s
@@ -15,7 +14,7 @@ uname=input("Enter Your Name Here:")
 count=1
 while True: 
     try:
-        sy("cls")
+        sy("cls" or "clear")
         print("Player 1:System... \t\t\t%d round"%count)
         s(1.3)
         sys=int(rt(1,6))
