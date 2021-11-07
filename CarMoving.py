@@ -1,5 +1,4 @@
-#Required Maximize Windows For Windows CMD
-#Possible to change the object color
+#Required Maximize
 from time import sleep
 from os import system as s
 def cuple(tapp,neww):
@@ -14,7 +13,7 @@ tap="\t"
 new="\n"
 for y in range(3):
     for x in range(17):
-        s("cls")
+        s("cls" or "clear")
         tapp=tap*x
         neww=new*x
         cuple(tapp,neww)
