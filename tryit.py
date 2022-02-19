@@ -1,9 +1,9 @@
 #python 3.x.x
-#Maximize Window CMD or Terminal
+#Maximize Terminal
 from time import sleep as slp
 from os import system as s
 def box(tapp,neww):
-    s("cls" or "clear")
+    s("clear")
     print(neww)
     print(tapp+" ________   ")
     print(tapp+"|        |  ")
