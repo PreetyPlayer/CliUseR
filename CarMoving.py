@@ -13,7 +13,7 @@ tap="\t"
 new="\n"
 for y in range(3):
     for x in range(17):
-        s("cls" or "clear")
+        s("clear")
         tapp=tap*x
         neww=new*x
         cuple(tapp,neww)
