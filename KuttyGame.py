@@ -14,7 +14,7 @@ uname=input("Enter Your Name Here:")
 count=1
 while True: 
     try:
-        sy("cls" or "clear")
+        sy("clear")
         print("Player 1:System... \t\t\t%d round"%count)
         s(1.3)
         sys=int(rt(1,6))
