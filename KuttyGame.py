@@ -1,7 +1,12 @@
-#My First Kutty Game
+#preety_player
 from random import randint as rt
 from time import sleep as s
 from os import system as sy
+from platform import system
+if system()=="Linux":
+    clear="clear"
+else:
+    clear="cls"
 #Python dice game
 tap="\t\t\t"
 def one(a):
@@ -14,7 +19,7 @@ uname=input("Enter Your Name Here:")
 count=1
 while True: 
     try:
-        sy("clear")
+        sy(clear)
         print("Player 1:System... \t\t\t%d round"%count)
         s(1.3)
         sys=int(rt(1,6))
@@ -43,5 +48,3 @@ while True:
     except(Exception):
         print("Error",Exception)
         break
-    finally:
-        pass
