@@ -1,6 +1,11 @@
 #Required Maximize
 from time import sleep
 from os import system as s
+from platform import system
+if system()=="Linux":
+    clear="clear"
+else:
+    clear="cls"
 def cuple(tapp,neww):
     print("\n\n\n\n\n\n\n\n\n\n")
     print(tapp+"     ________________        ____  ")
@@ -13,7 +18,7 @@ tap="\t"
 new="\n"
 for y in range(3):
     for x in range(17):
-        s("clear")
+        s(clear)
         tapp=tap*x
         neww=new*x
         cuple(tapp,neww)
