@@ -2,8 +2,13 @@
 #Maximize Terminal
 from time import sleep as slp
 from os import system as s
+from platform import system
+if system()=="Linux":
+    clear="clear"
+else:
+    clear="cls"
 def box(tapp,neww):
-    s("clear")
+    s(clear)
     print(neww)
     print(tapp+" ________   ")
     print(tapp+"|        |  ")
