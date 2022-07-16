@@ -90,7 +90,7 @@ class preetyplayer:
                 if 50<=i:
                     print("You completely filled all box")
                     slp(2)
-                    if (input("You want restart:")=="y" | "Y"):
+                    if (input("You want restart (y,n) :")=="y" | "Y"):
                         obj.initial()
                     else:
                         obj.mainmanu()
@@ -115,5 +115,6 @@ class preetyplayer:
         obj.home()
     def exi(self):
         exit()
-obj=preetyplayer()
-obj.home()
+if __name__=="__main__":
+    obj=preetyplayer()
+    obj.home()
