@@ -52,7 +52,7 @@ class preetyplayer:
                 |41 |42 |43 |44 |45 |46 |47 |48 |49 |50 |
                 |___|___|___|___|___|___|___|___|___|___| '''
         print(helpp)
-        slp(2)
+        slp(10)
         obj.mainmanu()
     def initial(self):
         for x in range(0,51):
