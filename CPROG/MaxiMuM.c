@@ -17,5 +17,5 @@ else
 num=num/10;
 }
 }
-printf("\nMin Number Is :%d \n",min);
+printf("\nMax Number Is :%d \n",min);
 }
